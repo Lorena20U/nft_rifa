@@ -62,7 +62,7 @@ function Schema({
       <Header.Root
         breadcrumb={[
           [
-            hasAuthorization ? 'My raffles' : 'Explorer',
+            hasAuthorization ? 'My collections' : 'Explorer',
             hasAuthorization ? `/${chainKey}` : `/${chainKey}/explorer`,
           ],
           [

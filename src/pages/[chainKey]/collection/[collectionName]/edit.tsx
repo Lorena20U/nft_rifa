@@ -541,12 +541,12 @@ function EditCollection({
         </Head>
         <Header.Root
           breadcrumb={[
-            ['My raffles', `/${chainKey}`],
+            ['My collections', `/${chainKey}`],
             [
               collection.collection_name,
               `/${chainKey}/collection/${collection.collection_name}`,
             ],
-            ['Update raffles'],
+            ['Update collections'],
           ]}
         >
           <Header.Content title={collection.collection_name} />
@@ -788,7 +788,7 @@ function EditCollection({
                       label="Company"
                       type="text"
                       defaultValue={creatorInfo?.company}
-                      placeholder="e.g: Facings"
+                      placeholder="e.g: Tech_NFT"
                     />
                     <Input
                       {...register('registrationNumber')}

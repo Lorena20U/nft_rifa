@@ -18,26 +18,24 @@ export default function About() {
             <h2 className="headline-2 mb-2">Purpose</h2>
             <p className="body-1 text-neutral-200 mb-2">
               Collection Manager is a reference UI implementation showcasing
-              AtomicAssets functionality, built by FACINGS and funded by the EOS
-              Network Foundation.
+              AtomicAssets functionality, built by Tech_NFT.
             </p>
             <p className="body-1 text-neutral-200">
               It's meant to work as both a stand-alone tool for collection
               owners, as well as a starting point for NFT developers making
-              their own apps on Antelope. Collection Manager can be forked and
-              customized to suit the needs of your own project.
+              their own apps on Antelope.
             </p>
 
             <h3 className="title-1 mt-4 md:mt-8 mb-1">Source Code</h3>
             <p className="body-1 text-neutral-200">
               Github:{' '}
               <a
-                href="https://linktr.ee/FACINGSOfficial"
+                href="https://github.com/Lorena20U/nft_rifa/tree/main"
                 target="_blank"
                 rel="noreferrer"
                 className="underline"
               >
-                https://github.com/FACINGS/collection-manager
+                https://github.com/Lorena20U/nft_rifa/tree/main
               </a>
             </p>
 
@@ -73,30 +71,6 @@ export default function About() {
               used to efficiently store redundant data. Additional features
               include native trade offer functionality and on-chain
               notifications.
-            </p>
-          </section>
-
-          <section className="my-8 md:my-12 lg:my-16">
-            <h2 className="headline-2 mb-2">About FACINGS</h2>
-            <p className="body-1 text-neutral-200 mb-2">
-              FACINGS aims to unlock the value of web3 for the masses by making
-              distribution of engaging NFTs easy, affordable, and scalable. We
-              serve those who aspire to launch NFTs, saving them time and money
-              by providing flexible tools to model and publish high-quality,
-              feature-rich NFT collections. Using FACINGS, NFT publishers can
-              take their concept to market quickly and reach their audience,
-              wherever they are.
-            </p>
-            <p className="body-1 text-neutral-200">
-              Social links:{' '}
-              <a
-                href="https://linktr.ee/FACINGSOfficial"
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
-                https://linktr.ee/FACINGSOfficial
-              </a>
             </p>
           </section>
         </article>

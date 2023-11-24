@@ -23,7 +23,7 @@ export function TopAppBar() {
           className="flex md:items-center w-full h-[calc(100vh-5.5rem)] md:h-auto bg-neutral-900 flex-col md:flex-row absolute right-0 top-[5.5rem] md:static md:transform-none data-[open=false]:-left-full duration-300 data-[open=false]:opacity-0 data-[open=false]:md:opacity-100"
         >
           <NavItem href={`/${chainKey}`} onClick={() => setOpen(false)}>
-            My raffles
+            My collections
           </NavItem>
           <NavItem
             href={`/${chainKey}/explorer`}
@@ -41,7 +41,7 @@ export function TopAppBar() {
             Plugins
           </NavItem>
           <NavItem
-            href="https://github.com/FACINGS/collection-manager/tree/main/docs/user-guide.md"
+            href="https://github.com/Lorena20U/nft_rifa/blob/main/docs/user-guide.md"
             onClick={() => setOpen(false)}
             target="_blank"
           >

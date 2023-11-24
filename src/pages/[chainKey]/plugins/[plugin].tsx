@@ -33,7 +33,7 @@ function Plugin({ ual, plugin, type, collection, chainKey }: PluginProps) {
         <Header.Root
           breadcrumb={[
             [
-              hasAuthorization ? 'My raffles' : 'Explorer',
+              hasAuthorization ? 'My collections' : 'Explorer',
               hasAuthorization ? `/${chainKey}` : `/${chainKey}/explorer`,
             ],
             [

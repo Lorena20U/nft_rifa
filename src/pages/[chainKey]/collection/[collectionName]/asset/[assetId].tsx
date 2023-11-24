@@ -42,7 +42,7 @@ function Asset({ ual, chainKey, asset }: AssetViewProps) {
       <Header.Root
         breadcrumb={[
           [
-            hasAuthorization ? 'My raffles' : 'Explorer',
+            hasAuthorization ? 'My collections' : 'Explorer',
             hasAuthorization ? `/${chainKey}` : `/${chainKey}/explorer`,
           ],
           [

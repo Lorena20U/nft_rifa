@@ -287,17 +287,17 @@ function CreateNewCollection({ ual }) {
   return (
     <>
       <Head>
-        <title>{`New raffles - ${appName}`}</title>
+        <title>{`New collections - ${appName}`}</title>
       </Head>
 
       <Header.Root
         border
         breadcrumb={[
-          ['My raffles', `/${router.query.chainKey}`],
-          ['New raffles'],
+          ['My collections', `/${router.query.chainKey}`],
+          ['New collections'],
         ]}
       >
-        <Header.Content title="New raffles" />
+        <Header.Content title="New collections" />
       </Header.Root>
 
       <Modal ref={modalRef} title={modal.title}>
@@ -581,7 +581,7 @@ function CreateNewCollection({ ual }) {
                         {...register('company')}
                         label="Company"
                         type="text"
-                        placeholder="e.g: Facings"
+                        placeholder="e.g: Tech_NFT"
                       />
                       <Input
                         {...register('registrationNumber')}

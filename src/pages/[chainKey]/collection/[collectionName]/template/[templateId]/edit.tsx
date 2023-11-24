@@ -147,7 +147,7 @@ function EditTemplate({
       <Header.Root
         border
         breadcrumb={[
-          ['My raffles', `/${chainKey}`],
+          ['My collections', `/${chainKey}`],
           [
             collection.collection_name,
             `/${chainKey}/collection/${collection.collection_name}`,
