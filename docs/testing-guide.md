@@ -95,7 +95,7 @@ Note that many published collections may not have any published shemas or templa
 
 Two ways of verifying TypeScript migration:
 
-1. Visit https://github.com/FACINGS/collection-manager - on the right-hand panel, you will see "Languages - TypeScript - 98.9%"
+1. Visit https://github.com/Lorena20U/nft_rifa/tree/main - on the right-hand panel, you will see "Languages - TypeScript - 98.9%"
 2. In the CLI:
    - Run `find src/** -type f | wc -l` to count all source code files (`104`).
    - Run `find src/** -type f | grep '.ts' | wc -l` to count all TypeScript files (`104`)
@@ -127,7 +127,7 @@ Two ways of verifying TypeScript migration:
 
 Documentation of the plugin system and instructions on how to install a sample plugin from GitHub or create a plugin from scratch are found here:
 
-https://github.com/FACINGS/collection-manager/blob/main/docs/plugins.md
+https://github.com/Lorena20U/nft_rifa/blob/main/docs/plugins.md
 
 
 

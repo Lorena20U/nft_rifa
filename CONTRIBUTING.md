@@ -6,7 +6,7 @@ Ways to help:
 
 ## Bug Reports, Questions, and Feature Requests
 
-Please [create a new issue](https://github.com/FACINGS/collection-manager/issues/new)
+Please [create a new issue](https://github.com/Lorena20U/nft_rifa/issues/new)
 and tag it as `bug`, `enhancement`, or `question`.
 
 ## Contributing Code

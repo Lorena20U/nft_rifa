@@ -671,7 +671,7 @@ function Import({ ual }: ImportProps) {
             <span className="body-1">
               For file specification, see{' '}
               <a
-                href="https://github.com/FACINGS/collection-manager/blob/main/docs/plugin-import.md"
+                href="https://github.com/Lorena20U/nft_rifa/blob/main/docs/plugin-import.md"
                 target="_blank"
                 rel="noreferrer"
                 className="font-bold"
